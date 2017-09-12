@@ -1,0 +1,55 @@
+.container {
+margin: 0 auto;
+background-color: #353434;
+width: 980px;
+
+}
+
+button, div, form, input {
+	margin: 10px;
+}
+
+button {
+	background-color: #79f7e4;
+	border-radius: 12px;
+	border: 2px outset #36afd1;
+	padding: 10px;
+	font-size: 18px;
+	font-family: 'Asap Condensed', sans-serif;
+	cursor: pointer; 
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 65px;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+}
+
+label {
+	font-family: 'Asap Condensed', sans-serif;
+	color: #fff;
+	font-size: 18px;
+}
+
+#add-tvshow {
+	background-color: #fff;
+	border-radius: 12px;
+	border: 2px outset #60d6c4;
+	padding: 10px;
+	font-size: 18px;
+	font-family: 'Asap Condensed', sans-serif;
+	cursor: pointer;
+}
+
+p {
+	color: #fff;
+	font-family: 'Asap Condensed', sans-serif;
+	font-size: 16px;
+}
+
+#tv-input {
+	font-size: 18px;
+	font-family: 'Asap Condensed', sans-serif;
+}

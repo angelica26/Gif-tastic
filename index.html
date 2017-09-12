@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>TV GIFs!</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Asap+Condensed" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/buttons.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>TV GIF TIME!</h1>
+
+    <!-- Rendered buttons will get dumped here  -->
+    <div id="tv-buttons"></div>
+
+    <form id="tv-form">
+      <label for="tv-input">Add a TV Show</label>
+      <input type="text" id="tv-input"><br>
+
+      <!-- Button triggers new movie to be added -->
+      <input id="add-tvshow" type="submit" value="Submit">
+    </form>
+
+    <!-- Movies will get dumped Here -->
+    <div id="tvshows-view"></div>
+
+   
+     
+  </div>
+</body>
+
+</html>
+
+<!-- https://api.giphy.com/v1/gifs/search?api_key=5ca4668569374e10a898b50de5f2a13a&q="elephant"&limit=10&rating=g -->
