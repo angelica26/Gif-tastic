@@ -1,5 +1,5 @@
 # Gif-tastic
-### Check out some TV show GIFs and add buttons for your own favorite shows
+### Check out some of my fave TV show GIFs and find some from your own favorite shows!
 
 ![Simpsons TV](assets/images/tv1.gif)
 
