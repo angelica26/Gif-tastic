@@ -25,7 +25,7 @@ function displayTvGifs() {
             var pOne = $("<p>").text("Rating: " + rating);
             var theGifs = $("<img>");
             theGifs.attr("src", results[i].images.fixed_height.url);
-            theGifs.attr("data-state", "still");
+            theGifs.attr("data-state", "animate");
             theGifs.attr("data-animate", results[i].images.fixed_height.url);
             theGifs.attr("data-still", results[i].images.fixed_height_still.url);
             showDiv.append(theGifs);
